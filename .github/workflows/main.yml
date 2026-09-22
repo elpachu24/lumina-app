@@ -28,7 +28,7 @@ jobs:
           channel: 'stable'
 
       - name: Fabricar el APK
-        run: flet build apk --product-name "Lumina" --icon assets/icon.png
+        run: flet build apk
 
       - name: Subir APK para descargar
         uses: actions/upload-artifact@v4
